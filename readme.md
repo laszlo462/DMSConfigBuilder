@@ -3,7 +3,7 @@
 Fork of Shancarter's Mr-Data-Converter project, to be edited for DMS specific config file creation.  Will take excel with custom field mappings and generate the associated XML to be used within dmsconfig.xml
 
 ## How to use
-* Download and run the portable .exe to open the Config Builder tool.
+* [Download](https://github.com/laszlo462/DMSConfigBuilder-Electron/releases) and run the portable .exe to open the Config Builder tool.
     * If cloning this repo, you can build the .exe following the Dev and Build steps further below.
 * Copy the 3 columns (including the header columns) from the factorymap.xls and paste into the top box.  
 * The output below can then be pasted into dms-config.xml after the initial Powerscribe connectivity has been verified within the DMS web UI.
