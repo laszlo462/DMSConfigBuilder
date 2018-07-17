@@ -1,0 +1,8 @@
+DataMap	Xpath	PS360CustomField
+Patient Name	/PatientData/Patient/PatientName	LCS_PatientName
+Patient ID	/PatientData/Patient/PatientID	LCS_PatientID
+Study Instance UID	/PatientData/Study/StudyInstanceUID	LCS_StudyInstanceUID
+Study Accession Number	/PatientData/Study/AccessionNumber	LCS_AccessionNumber
+Image DateTime	/PatientData/Image/DateTime	LCS_DateTime
+Study Date	/PatientData/Image/StudyDate	LCS_StudyDate
+Study Time	/PatientData/Image/StudyTime	LCS_StudyTime
