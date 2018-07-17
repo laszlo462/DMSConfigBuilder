@@ -1,8 +1,8 @@
 {
   "name": "dmsconfigbuilder-electron",
   "productName": "DmsconfigbuilderElectron",
-  "version": "0.0.0",
-  "description": "My epic app",
+  "version": "1.0.0",
+  "description": "Electron-based DMSConfigBuilder webpage",
   "license": "MIT",
   "repository": "laszlo462/dmsconfigbuilder-electron",
   "author": {
@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "devtron": "^1.1.0",
-    "electron-packager": "^8.0.0",
-    "electron": "^1.3.3",
+    "electron-packager": "12.1.0",
+    "electron": "2.0.2",
     "xo": "^0.16.0"
   },
   "xo": {
