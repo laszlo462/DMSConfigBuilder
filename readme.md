@@ -4,6 +4,7 @@ Fork of Shancarter's Mr-Data-Converter project, to be edited for DMS specific co
 
 ## How to use
 * Download and run the portable .exe to open the Config Builder tool.
+    * If cloning this repo, you can build the .exe following the Dev and Build steps further below.
 * Copy the 3 columns (including the header columns) from the factorymap.xls and paste into the top box.  
 * The output below can then be pasted into dms-config.xml after the initial Powerscribe connectivity has been verified within the DMS web UI.
 
@@ -31,7 +32,7 @@ Whitespacing may not be accurate upon pasting into dms-config.xml file.  Be sure
 
 
 ## Dev
-
+Requires node.js to be installed, as well as yarn ($ npm install -g yarn) to execute the below commands.
 ```
 $ yarn install
 ```
