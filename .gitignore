@@ -1,2 +1,7 @@
-node_modules
-/dist
+node_modules/
+dist/
+builds/
+logs/
+*.log
+npm-debug.log*
+.npm
