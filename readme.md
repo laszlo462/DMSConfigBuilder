@@ -32,21 +32,21 @@ Whitespacing may not be accurate upon pasting into dms-config.xml file.  Be sure
 
 
 ## Dev
-Requires node.js to be installed, as well as yarn ($ npm install -g yarn) to execute the below commands.
+Requires node.js to be installed.
 ```
-$ yarn install
+$ npm install
 ```
 
 ### Run
 
 ```
-$ yarn start
+$ npm start
 ```
 
 ### Build
 
 ```
-$ yarn dist
+$ npm dist
 ```
 
 Builds Windows portable .exe distribution, using [electron-builder](https://github.com/electron-userland/electron-builder).
