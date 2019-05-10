@@ -5,13 +5,13 @@ Fork of Shancarter's Mr-Data-Converter project, to be edited for DMS specific co
 ## How to use
 * [Download](https://github.com/laszlo462/DMSConfigBuilder-Electron/releases) and run the portable .exe to open the Config Builder tool.
     * If cloning this repo, you can build the .exe following the Dev and Build steps further below.
-* Copy the 3 columns (including the header columns) from the factorymap.xls and paste into the top box.  
+* Copy the 3 columns (including the header columns) from the factorymap.xls and paste into the top box.
 * The output below can then be pasted into dms-config.xml after the initial Powerscribe connectivity has been verified within the DMS web UI.
 
 ### To update dms-config.xml:
 * Open IIS and stop the DataMappingService web site.
 * Open C:\DataMappingService\config\dms-config.xml within a text editor.
-* If initial PowerScribe connectivity has been established, there should be XML elements populated for 
+* If initial PowerScribe connectivity has been established, there should be XML elements populated for
 ~~~ xml
 <ConnectionAttributes>
 ~~~
@@ -46,7 +46,7 @@ $ npm start
 ### Build
 
 ```
-$ npm dist
+$ npm run-script dist
 ```
 
 Builds Windows portable .exe distribution, using [electron-builder](https://github.com/electron-userland/electron-builder).
