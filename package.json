@@ -1,14 +1,14 @@
 {
   "name": "dmsconfigbuilder-electron",
   "productName": "DmsconfigbuilderElectron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Electron-based DMSConfigBuilder webpage",
   "license": "MIT",
   "repository": "laszlo462/dmsconfigbuilder-electron",
   "author": {
     "name": "Steve Szabo",
     "email": "laszlo.steve@gmail.com",
-    "url": "github.com/laszlo462"
+    "url": "https://github.com/laszlo462"
   },
   "scripts": {
     "test": "xo",
@@ -37,10 +37,10 @@
   },
   "devDependencies": {
     "devtron": "^1.4.0",
-    "electron": "2.0.2",
-    "electron-builder": "^20.22.0",
-    "electron-packager": "12.1.0",
-    "xo": "^0.21.1"
+    "electron": "5.0.1",
+    "electron-builder": "^20.40.2",
+    "electron-packager": "13.1.1",
+    "xo": "^0.24.0"
   },
   "xo": {
     "esnext": true,
